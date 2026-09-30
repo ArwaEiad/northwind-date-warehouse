@@ -17,7 +17,6 @@ Northwind is a widely used educational database created by Microsoft, designed t
 
 
  A star schema has one fact table containing all the measurements we need about the any order have been placed , and containing all foreign keys from other dimentions. including the key of the bridged table 'ship_info'
- The grain is one row per product/order line.One order can have many fact rows.
 
 ## ETL process:
 
